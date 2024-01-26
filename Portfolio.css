@@ -180,7 +180,7 @@ html {
   overflow: hidden;
   background-size: cover;
   background-position: center center;
-  z-index: -100;
+  z-index: 0;
 }
 
 #large-header {
@@ -249,6 +249,8 @@ html {
   width: 2.5vw !important;
   height: 3.5vw;
   filter: invert(100%);
+  position: relative;
+  z-index: 10;
 }
 
 .firstDiv {
